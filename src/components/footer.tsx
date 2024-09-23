@@ -8,7 +8,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({telefone, email, copyright}) => {
     return(
-        <footer>
+        <footer className="text-preto bg-cyan-700 gap-3 p-3 font-robFont flex flex-row justify-center align-center gap-8">
             <p>{telefone}</p>
             <p>{email}</p>
             <p>{copyright}</p>
