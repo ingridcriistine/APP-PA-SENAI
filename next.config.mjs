@@ -10,6 +10,10 @@ const nextConfig = {
             {
                 source: "/matematica",
                 destination: "/maths"
+            },
+            {
+                source: "/funcao-reaproveitada",
+                destination: "/general-function"
             }
         ]
     }
