@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 
-interface HandleProps {
-    a: string;
-    b: string;
-}
+// interface HandleProps {
+//     a: string;
+//     b: string;
+// }
 
 const GeneralFunction: React.FC = () => {
 
@@ -19,7 +19,7 @@ const GeneralFunction: React.FC = () => {
 
     const erro = "Digite direito por favor"
 
-    const handleAll = ({a, b}: HandleProps) => {
+    const handleAll = ({a, b}: {a:string, b:string}) => {
         const n1= parseFloat(a);
         const n2= parseFloat(b);
 
