@@ -5,6 +5,10 @@ const nextConfig = {
         return [
             {
                 source: "/",
+                destination: "/login",
+            },
+            {
+                source: "/inicial",
                 destination: "/home",
             },
             {

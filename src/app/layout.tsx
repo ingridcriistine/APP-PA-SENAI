@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
       >
-        <Menu op1="Ingrid" op2="Milena" op3="General Function"></Menu>
+        <Menu op1="Login" op2="Inicial" op3="Maths" op4="General Function"></Menu>
         {children}
         <Footer telefone="(41)99999-9999" email="ingrid@gmail.com" copyright="Todos os direitos reservados"></Footer>
       </body>
