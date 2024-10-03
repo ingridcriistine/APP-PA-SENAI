@@ -72,7 +72,7 @@ const Maths: React.FC = () => {
         div2: "flex gap-4 justify-between items-center mb-2",
         h2: "flex items-center w-24",
         h3: "w-10 pl-4 pr-4 text-black",
-        button: "text-white bg-cyan-700 rounded text-[13px] p-1 w-[100px] h-[30px]"
+        button: "text-white bg-cyan-700 rounded text-[13px] p-1 w-[100px] h-[30px] opacity-90 hover:opacity-100"
     }
 
 
