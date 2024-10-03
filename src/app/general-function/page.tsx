@@ -49,7 +49,7 @@ const GeneralFunction: React.FC = () => {
 
     return (
         <div className="bg-gray-900 flex flex-col justify-center items-center h-screen">
-            <div className="bg-white w-100 rounded h-auto p-14 flex flex-col justify-center items-center">
+            <div className="bg-white w-[400px] rounded h-auto p-14 flex flex-col justify-center items-center">
                 <h1 className="mb-10 font-bold">Função Reaproveitada</h1>
                 <div className={style.div}>
                     <input type="text" className={style.input} placeholder="Número 01" value={numero1} onChange={(e) => setNumero1(e.target.value)}/>
