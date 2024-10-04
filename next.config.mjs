@@ -26,6 +26,10 @@ const nextConfig = {
             {
                 source: "/pagina-com-axios",
                 destination: "/axios-page"
+            },
+            {
+                source: "/pagina-server-side",
+                destination: "/server-side"
             }
         ]
     },

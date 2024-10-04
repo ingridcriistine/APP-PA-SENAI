@@ -24,13 +24,13 @@ const FetchPage = () => {
 
     return (
         <div className="bg-gray-900 text-white">
-            <div className=" pt-20 ">
-                <h1 className="font-bold p-4 text-[20px]">Fetch Nativo para requisições get</h1>
+            <h1 className="font-bold p-4 pt-32 flex justify-center text-[20px]">Fetch Nativo para requisições get</h1>
+            <div className=" pt-10 pb-20 flex row flex-wrap justify-center">
                 {characters.map((item) => {
                     return (
-                        <div key={item.id}>
+                        <div key={item.id} className="bg-white rounded m-4 text-black w-[250px] flex flex-col items-center justify-center]">
                             <h2 className="p-4">{item.name}</h2>
-                            <Image src={item.image} width={64} height={64} alt="foto"/>
+                            <Image className="w-[200px] h-auto mb-4" src={item.image} width={64} height={64} alt="foto" priority/>
                         </div>
                     )
                 })}
