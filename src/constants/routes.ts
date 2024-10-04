@@ -2,5 +2,7 @@ export enum ROUTES {
     login = "/",
     home = "/inicial",
     maths = "/maths",
-    generalFunction = "/funcao-reaproveitada"
+    generalFunction = "/funcao-reaproveitada",
+    fetchNativo = "/pagina-com-fetch",
+    axiosPage = "/pagina-com-axios"
 }

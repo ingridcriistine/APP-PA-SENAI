@@ -18,9 +18,28 @@ const nextConfig = {
             {
                 source: "/funcao-reaproveitada",
                 destination: "/general-function"
+            },
+            {
+                source: "/pagina-com-fetch",
+                destination: "/fetch-page"
+            },
+            {
+                source: "/pagina-com-axios",
+                destination: "/axios-page"
             }
         ]
-    }
+    },
+
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'rickandmortyapi.com', 
+          },
+        ],
+      },
+
 };
+
 
 export default nextConfig;
